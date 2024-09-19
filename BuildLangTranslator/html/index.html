@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Language Translator</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(214, 88, 88);
+            text-align: center;
+            padding: 10px;
+        }
+        nav a{
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            padding-right: 40px;
+        }
+        .about-us{
+            background-color: rgb(217, 55, 55);
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+        .about-us p{
+            color: white;
+            text-align: justify;
+        }
+        .team{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .team:hover{
+            background-color: rgb(39, 19, 19);
+        }
+    </style>
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <h1>One Page Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="service.html">Services</a>
+    </nav>
+    <section class="about-us">
+        <h1>About Us</h1>
+        <p>Technology is the application of conceptual knowledge to achieve practical goals, especially in a reproducible way. The word technology can also mean the products resulting from such efforts, including both tangible tools such as utensils or machines, and intangible ones such as software.</p>
+        <a href="#" class="team">Our Team</a>
+    </section>
+
+    <p id="demo"></p>
+    <script src="https:translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+                {pagelanguage:"en"},
+                'demo'
+        );
+        }
+    </script>
+</body>
+</html>
