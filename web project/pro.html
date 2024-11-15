@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cravings World</title>
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- cdn icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="" alt=""></a>
+            <h1 class="logoName">Cravings World </h1>
+        </div>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#blogs">blogs</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#OrderForm">OrderForm</a>
+            <a href="#PaymentForm">PaymentForm</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Delicious Cake for Everyone </h2>
+            <div class="login-container">
+                <h2>Login Page</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="error-message"></p>
+            </div>
+            <div class="home-btn">
+                <a href="#"><button>see more</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- home section end here  -->
+
+    <!-- product section start here  -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Our Exclusive Products</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Icecream cake</h3>
+                        <p>An ice cream cake is a cake made entirely out of ice cream.
+                            It is a popular party food, often eaten at birthdays and weddings,
+                            Ice cream cake was originally made from biscuits and cream. 
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="imag2.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Strawberry cake</h3>
+                        <p>Strawberries are bright red, juicy, and sweet. 
+                            Health benefits: Strawberries are a good source of antioxidants, vitamin C, and other nutrients,
+                             making them a healthier choice than some other ingredients that are often used in cakes.
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image2.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate cake</h3>
+                        <p>It melts in your mouth, the cocoa butter in chocolate gives it a rich,
+                            creamy consistency that also transmits the cocoa flavours perfectly
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img3.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Brownie cake</h3>
+                        <p>Fudgy brownies are dense, gooey and moist.
+                             They have a fudge-like texture while chewy brownies are dense and have an elastic texture that makes them easy to chew
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img4 (3).jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Pinapple cake</h3>
+                        <p>is a Taiwanese sweet traditional pastry and dessert containing butter, flour, egg, sugar, and pineapple jam or slices.
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Red velvet cake</h3>
+                        <p>Red velvet cake tastes like very mild cocoa with a slightly tart edge. The cream cheese frosting is the most forward flavor. 
+                            Perhaps even more important than the taste is the texture: smooth, soft, tender and light with creamy icing
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img5 (2).jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Black forest cake</h3>
+                        <p>A Black Forest cake is a classic and iconic dessert originating from the Black Forest region in Germany.
+                            Black Forest cake tends to be high in sugar due to chocolate, whipped cream, and cherries. 
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img6.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Pancake</h3>
+                        <p>They are made from flour, eggs, sugar, buttermilk or milk, salt, bicarbonate of soda and cream of tartar. 
+                            “They're relatively simple, and their smallish size makes them easy to eat.”
+                        </p>
+                        <div class="orderNow">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- product section end here  -->
+
+    <!-- blogs section start here  -->
+    <section class="blogs" id="blogs">
+        <div class=" swiper blogs-row">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="img7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Caramel Dream Delight</h3>
+                        <p>Caramel Dream Delight  are a luxurious treat combining the rich flavors of vanilla, caramel, and bourbon. 
+                            These cupcakes are perfect for special occasions or whenever you want to indulge in a sweet, sophisticated dessert.
+                            The tender, moist cake is infused with a hint of bourbon, providing a depth of flavor that pairs beautifully with the sweet and buttery caramel sauce. 
+                            Topped with a creamy caramel-bourbon frosting, these cupcakes are a dream come true for any dessert lover.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="img8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Vanilla Bourbon Swirls </h3>
+                        <p>Vanilla Bourbon Swirls are an exquisite fusion of classic vanilla and smooth bourbon,
+                            swirled together to create an unforgettable dessert experience. Each bite offers a delicate balance of flavors, 
+                            with the warmth of bourbon complementing the sweet vanilla notes.
+                            The intricate swirl pattern of the frosting not only looks stunning but also ensures that every taste is a delightful mix of all the components.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="imag1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Golden Caramel Bites </h3>
+                        <p>Golden Caramel Bites are a decadent treat that captures the essence of buttery caramel and rich vanilla in every bite.
+                             These cupcakes feature a moist, golden vanilla cake filled with pockets of gooey caramel,
+                              topped with a luscious caramel-infused frosting. Perfect for any occasion, these cupcakes are a sweet indulgence that will leave a lasting impression.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- blogs section ends here  -->
+
+    <!-- review section start here  -->
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>client review</h2>
+        </div>
+        <div class=" swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>"I ordered these cupcakes for my daughter's birthday,
+                             and they were a hit with their rich caramel sauce, bourbon frosting, and moist, flavorful cake."</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="clientDetailed">
+                            <h3>Anu</h3>
+                            <p>Salem</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>"I served Bourbon Bliss Cupcakes at a dinner party, and they add  their bourbon flavor and caramel sauce.
+                             My guests loved them, and I'll order more for future events!"</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="clientDetailed">
+                            <h3>Devid</h3>
+                            <p>Madurai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>"I ordered these cupcakes for my sister's bridal shower,
+                             and they were a huge hit with their light, fluffy vanilla cake, sophisticated bourbon flavor, 
+                             and creamy frosting."</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="clientDetailed">
+                            <h3>Jack</h3>
+                            <p>Chennai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>"I found these cupcakes at a local bakery, and they were perfect! Moist, 
+                            buttery cake with caramel pockets and caramel-infused frosting made them pure bliss."</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="clientDetailed">
+                            <h3>Priya</h3>
+                            <p>Erode</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+    <!-- review section ends here  -->
+    <!--form-->
+        <div class="container">
+            <div class="heading">
+                <h1>Contact Us</h1>
+            </div>
+            <section class="contact" id="contact">
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-phone"></i>
+                        <h3>Contact number</h3>
+                        <p>+xx xxxxxxxxxx</p>
+                        <p>+xx xxxx xxx xxx</p>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>example@bakery.com</p>
+                        <p>info@bakery.com</p>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>123 Bakery Street,</p>
+                        <p>City, Country</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <form id="contact-form">
+                        <h3>Get in Touch</h3>
+                        <div class="inputBox">
+                            <input type="text" id="name" name="name" placeholder="Enter your name" class="box" required>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" class="box" required>
+                        </div>
+                        <div class="inputBox">
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" class="box" required>
+                            <input type="text" id="subject" name="subject" placeholder="Enter your subject" class="box" required>
+                        </div>
+                        <textarea id="address" name="address" placeholder="Enter your address" cols="30" rows="5" required></textarea>
+                        <input type="submit" value="Send Message" class="btn">
+                    </form>
+                </div>
+    </section>
+    <br>
+    <br>
+<section class="OrderForm" id="OrderForm">
+    <div class="heading">
+        <h1>Order form</h1>
+    </div>
+    <div class="container">
+        <h1>Bakery Order Form</h1>
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="items">Select Item:</label>
+            <select id="items" name="items" required>
+                <option value="cake">Icecreame Cake</option>
+                <option value="cake">Chocolate Cake</option>
+                <option value="cookies">red Velvet Cake</option>
+                <option value="bread">Black forest Cake</option>
+                <option value="cake">Pinapple Cake</option>
+                <option value="cake">Cheese Cake</option>
+                <option value="cookies">Lemon Cake</option>
+                <option value="bread">Funfetti Cake</option>
+                <option value="muffins">Strawberry Cake</option>
+                <option value="cookies">Cookies</option>
+                <option value="bread">Bread</option>
+                <option value="muffins">pan cake</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            
+            <label for="date">Pick-up Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Pick-up Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Place Order</button>
+    </form>
+    <div id="confirmation"></div>
+    </div>
+</section>
+<br>
+<br>
+<section class="PaymentForm" id="PaymentForm">
+    <div class="heading">
+        <h1>Payment Form</h1>
+    </div>
+    <div class="container">
+        <form name="payment-form" id="payment-form">
+            <h1 class="mainheading">Bakery Payment Form</h1>
+            <br>
+            <h2>User Information</h2>
+            <p>Name: 
+                <input type="text" required Name="name" placeholder="Name"></p>
+            <p>PinCode:
+                <input type="number" Name="pincode"  placeholder="123456"></p>
+            <h2>Payment Information</h2>
+            <p>Card Type: 
+                <select name="card_type" Name="card_type">
+                    <option value="">---------Select Card Type---------</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="RuPay">RuPay</option>
+                </select></p>
+            <p>Card Number:
+                <input type="number" Name="card_number" required placeholder="1111-2222-3333-4444"></p>
+            <p> Expiration Date:
+                    <input type="date" Name="exp_date" required></p>
+            <p>CVV:
+                <input type="number" Name="cvv"  required placeholder="123"></p>
+            <input type="submit" value="Pay Now">
+        </form>
+    </div>
+</section>
+<br>
+<br>
+    <!-- footer section start here  -->
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="logo.jpg" alt=""></a>
+                    <h1 class="logoName">Cravings World</h1>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>blogs</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>contact</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>OrderForm</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>PaymentForm</a>
+
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+    </footer>
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+</body>
+</html>
